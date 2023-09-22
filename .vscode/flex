@@ -1,0 +1,19 @@
+display flex
+parent container is always assign with property display:flex;
+when we do display flex default is set to row
+parent bhita bhako item are called flex item they take min width as possible to arrange them in row as parent parnet flex direction is row.
+flex item width is 100% by default you can set width in childeren containER.
+
+
+
+
+Adding spacing betn flex🧖‍♂️ items
+use gap in parent div.
+
+trick .col + .col{
+    //when we have multiple div of same name we  can use this selector 
+    afu bhnada agi koii cha bhna matra select so this will select third and secod if we have div of same name col
+    first is discarded as first ko agi koi xina
+    do margin-left:10px; so this act as gap
+    
+}

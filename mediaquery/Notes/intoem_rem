@@ -1,0 +1,32 @@
+for font size
+
+em is looking for parent element can be div if no div then body.it goes in compound problem ie parent multiple then fontsize goes out of control
+rem looks for root element ie html and is more consistent for font size
+
+for margin and padding and width etc
+
+if we have font size and margin button in em then font size looks  for paent but marginbutton loooks for font size
+but this is not in case of rem rem always looks for root element ie font size of html
+
+Note use rem for font size for margin and padding use em (for button) ie padding automaticaly maintain according to font size
+
+if used rem for margin and padding you will get consistent space 
+ when we use rem for font size media querry ma html ko matra font size change gara pugcha
+
+
+
+
+ //max width
+ if use max width in px like 700px on changing view port above 700px content will lock
+ all changes will exist below 700 px most time we use max width not min width
+
+
+ //vh vmin vw vmax
+ if height is in vh use vh for padding
+
+//:: before used for image in background
+position:absolute
+zindex:-1
+top:0 
+left:0;
+

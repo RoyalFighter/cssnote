@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+
+}
+.parent{
+    background-color: aqua;
+    width: 80%;
+    /* height:200px; */
+/* when height is set then text overflow from div for smaller screen 
+so for extra space use padding */
+padding :5em;
+
+}

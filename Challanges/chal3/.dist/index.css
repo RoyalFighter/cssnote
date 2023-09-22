@@ -1,0 +1,32 @@
+
+*{
+    box-sizing: border-box;
+  }
+  .container{
+    background-color:#23424A;
+  
+    
+  }
+  h1{
+    font-family: 'Roboto', sans-serif;
+    font-size:3rem;
+    color:white;
+  }
+  p{
+    font-family:'Roboto-Regular', sans-serif;
+    color:white;
+  }
+  .btn{
+    font-family:'Roboto-Bold';
+background-color: #38CFD9;
+border-radius: 1.5em;
+padding: 1em;
+border: none;
+font-size: 1.3125rem;
+  }
+  .intro{
+    margin:0 auto;
+    padding:4em 2em;
+    max-width: 658px;
+
+  }

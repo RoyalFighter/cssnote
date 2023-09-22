@@ -1,0 +1,14 @@
+for image in flex fox 
+give image a class and do alighn self flex start
+
+
+if we have text and image as flex item then assign width 60% to text and image 30% so they fit well
+also give justigy content space betwne to parent which will distrubute space betn flex item\
+
+
+to make image responive set maxwidth 100% prop in image so that it grows and shink with parent
+
+
+
+you can have two ul list in parent nav in case you have button text like signin and actual button display flex on nav will make row and space betwn wil shift button to extreme left
+use flex grow to to brig nav item from left to right

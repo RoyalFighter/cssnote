@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+
+}
+.parent{
+    background-color: #2eeb2e;
+    padding:50px;
+    /* width: 900px; */
+    margin: 0 auto;
+    /* bY deafult layout is responsive as blcok level element has width of 100 PERCENT OF THE PARENT
+    when we dont assign width layout is responsive but we we set things we take that responsiveness away
+    settting width in pixel lock and doesnot make things responsive
+    SO WE SHULD USE PERCENT WITH WITH WIDTH
+    
+    */
+width:80%;
+/* Remaning 20 is distributed equally on both side */
+}
+.child{
+    background-color: rgb(15, 120, 155);
+    /* if we set with in px here it works fine for large screen but not for small
+    screen also text overflows here*/
+    width: 50%;
+    /* w 50% is 50 % of parent div bigger the parent bigger the child and vice vers */
+/* we always dont need to set w on child but need to understand the relation */
+}
+
+/* stop giving height to div as it overflows from the div in acase of small device */
